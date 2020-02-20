@@ -6,7 +6,7 @@
 # Blog: https://p3terx.com
 #=================================================
 
-name: leanlede
+name: leann1
 
 on:
   release:
@@ -15,7 +15,7 @@ on:
     branches:
       - master
     paths:
-      - 'n1.config'
+      - 'leann1.config'
 #  schedule:
 #    - cron: 0 8 * * 5
   watch:
@@ -24,7 +24,7 @@ on:
 env:
   REPO_URL: https://github.com/coolsnowwolf/lede
   REPO_BRANCH: master
-  CONFIG_FILE: n1.config
+  CONFIG_FILE: leann1.config
   DIY_SH: diy.sh
   FREE_UP_DISK: false
   SSH_ACTIONS: false
